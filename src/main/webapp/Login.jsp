@@ -102,7 +102,7 @@
         methods: {
             login() {
                 console.log('start to login');
-                axios.post('http://localhost:8080/StudentInformationManagementSystem/api/login', {
+                axios.post('http://localhost:8080/api/login', {
                     userID: this.info.userID,
                     password: this.info.password
                 }).then(function (response) {
